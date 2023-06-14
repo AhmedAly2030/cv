@@ -1,0 +1,7 @@
+html{display: block;background: bisque;}
+body{background: rgb(100, 160, 95); border: solid 2px;}
+h1{background: rgb(234, 202, 124);text-align: center;font-size: x-large;}
+h2{background: fuchsia;}
+img{height: 350px;width: 100%;}
+address{border: solid;background: rgb(175, 78, 78);font-size: x-large;}
+p{border: solid black;background: yellowgreen;font-size: xx-large;text-align: center;}
