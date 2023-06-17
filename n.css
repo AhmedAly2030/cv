@@ -1,6 +1,6 @@
 html{background-image:url(./images\ \(2\).jpeg);}
 
-.list{border-radius: 50px 0px 50px 0px;width: fit-content;
+.list{border-radius: 50px 0px 50px 0px;width: fit-content;   
  background-image:linear-gradient(  to left,rgb(224, 137, 137),rgba(56, 56, 238, 0.904)) ;}
 
 a{text-decoration: none;font-size: larger;
@@ -51,7 +51,14 @@ th{height: 30px;}
 caption{font-size: xx-large; color: rgb(247, 237, 233);}
 footer{color: blue;}
 audio{width: 100%;}
-img{height: 200px;float:right;}
+img{height: 200px;float:right;animation: ahmed 5s linear .2s 1 normal both;}
+@keyframes ahmed{
+    0%{scale: 0;}
+    25%{rotate: 90deg;}
+    50%{rotate: 180deg;}
+    75%{rotate: 270deg;}
+    100%{rotate: 360deg;}
+}
 
 label{color: rgb(243, 232, 232);font-weight: 700;} 
    ul{list-style-type:square;color: antiquewhite;}
